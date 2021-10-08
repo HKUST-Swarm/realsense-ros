@@ -13,29 +13,29 @@
   <arg name="fisheye_height"      default="-1"/>
   <arg name="enable_fisheye"      default="false"/>
 
-  <arg name="depth_width"         default="-1"/>
-  <arg name="depth_height"        default="-1"/>
+  <arg name="depth_width"         default="640"/>
+  <arg name="depth_height"        default="480"/>
   <arg name="enable_depth"        default="true"/>
 
   <arg name="confidence_width"    default="-1"/>
   <arg name="confidence_height"   default="-1"/>
   <arg name="enable_confidence"   default="true"/>
-  <arg name="confidence_fps"      default="-1"/>
+  <arg name="confidence_fps"      default="25"/>
 
-  <arg name="infra_width"         default="848"/>
+  <arg name="infra_width"         default="640"/>
   <arg name="infra_height"        default="480"/>
-  <arg name="enable_infra"        default="false"/>
-  <arg name="enable_infra1"       default="false"/>
-  <arg name="enable_infra2"       default="false"/>
+  <arg name="enable_infra"        default="true"/>
+  <arg name="enable_infra1"       default="true"/>
+  <arg name="enable_infra2"       default="true"/>
   <arg name="infra_rgb"           default="false"/>
 
   <arg name="color_width"         default="-1"/>
   <arg name="color_height"        default="-1"/>
-  <arg name="enable_color"        default="true"/>
+  <arg name="enable_color"        default="false"/>
 
   <arg name="fisheye_fps"         default="-1"/>
-  <arg name="depth_fps"           default="-1"/>
-  <arg name="infra_fps"           default="30"/>
+  <arg name="depth_fps"           default="15"/>
+  <arg name="infra_fps"           default="15"/>
   <arg name="color_fps"           default="-1"/>
   <arg name="gyro_fps"            default="-1"/>
   <arg name="accel_fps"           default="-1"/>
